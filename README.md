@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+# COMMENT SECTION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto para criação de uma homepage, com o objetivo de me introduzir a biblioteca React de JavaScript.
 
-## Available Scripts
+## Índice
 
-In the project directory, you can run:
+- [Visão geral](#visao-geral)
+  - [O Desafio](#o-desafio)
+  - [Screenshot](#screenshot)
+- [Resultado](#resultado)
+- [Minha caminhada](#minha-caminhada)
+  - [Propriedades](#propriedades)
+  - [O que aprendi](#o-que-aprendi)
+  - [Recursos](#recursos)
+- [Autor](#autor)
 
-### `npm start`
+## Visão Geral
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### O Desafio
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Os usuários devem ser capazes de:
 
-### `npm test`
+- Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
+- Visualizar os estados de foco para todos os elementos interativos na página
+<!-- - Navegar entre seções -->
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Screenshots
 
-### `npm run build`
+<html>
+  <!-- <h4>Layout mobile</h4>
+  <img src="./assets/image/mobile.png" width="300px">
+  <h4>Layout desktop </h4>
+  <img src="./assets/image/desktop.png" width="920px"> 
+  -->
+</html>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Resultado: [Veja como ficou!](https://room-homepage-nine-delta.vercel.app/)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Minha caminhada
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1º dia
 
-### `npm run eject`
+- [x] Planejamento
+- [x] Preparativos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2º dia
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- [x] Navbar
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3º dia
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<!-- - [x] Desktop layout
 
-## Learn More
+4º dia
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [x] Desktop layout
+- [x] Estados de foco
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+5º dia
 
-### Code Splitting
+- [x] Feature de resposta
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+6º dia
 
-### Analyzing the Bundle Size
+- [x] Feature de criar comentário
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+7º dia
 
-### Making a Progressive Web App
+- [x] Feature de avaliação -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Propriedades
 
-### Advanced Configuration
+- Mobile-first
+- Semântica HTML
+- SASS
+- Manipulação do DOM
+- React
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Meu aprendizado
 
-### Deployment
+...<!-- No decorrer da primeira semana, além de reforçar os conceitos base de JavaScript, implementei módulos com a sintaxe ES6, objetos com abreviação do valor da propriedade e atribuição desestruturada, e como em qualquer conceito, é uma boa habilidade aprender a usar a documentação. -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+JS
 
-### `npm run build` fails to minify
+```js
+...
+...
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!--
+O exemplo acima demonstra a modulação. Ao isolar o código em arquivos separados, podemos encontrar, corrigir e depurar o código com mais facilidade, reutilizar e reciclar a lógica definida em diferentes partes da aplicação, e muitas outras vantagens.
+
+A segunda semana foi dedicada a explorar a biblioteca externa Handlebars, que auxilia na construção da estrutura HTML, utilizando expressões que possibilitam aplicar condicionais ou até iterar sobre arrays, com o objetivo de reduzir código criando modelos de template. Abaixo vemos a forma de aplicação da ferramenta.
+
+Outro aspecto abordado na segunda semana é a propriedade local storage, que permite o armazenamento de dados, mesmo após o usuário fechar ou recarregar a página. Utilizado para a permanência dos comentários inseridos pelo usuário. -->
+
+### Recursos
+
+<!-- - [HANDLEBARS - Introdução](https://handlebarsjs.com/guide/#what-is-handlebars) - Conheça uma biblioteca externa muito útil para reduzir retrabalhos.
+
+- [JAVASCRIPT - Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Aprenda os diversos métodos da propriedade. -->
+
+- [SASS - Documentação](https://sass-lang.com/documentation/) - Nesse site você saberá tudo sobre o mundo SASS.
+
+- [O desafio da Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9) - Neste link você encontrará o desafio solucionado aqui.
+
+## Autor
+
+- LinkedIn - [Pedro A. Lima](https://www.linkedin.com/in/pedroalima6/)
