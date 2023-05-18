@@ -1,11 +1,15 @@
 import './App.css';
-import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Main from './components/Main';
 
 function App() {
+  const fade = <div id="fade" className="fade hide"></div>;
 
   return (
     <div className="App">
-      <Navbar/>
+      <Header/>
+      <div>{fade}</div>
+      <Main/>
     </div>
   );
 }
