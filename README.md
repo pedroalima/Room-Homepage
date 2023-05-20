@@ -1,4 +1,4 @@
-# COMMENT SECTION
+# ROOM HOMEPAGE
 
 Projeto para criação de uma homepage, com o objetivo de me introduzir a biblioteca React de JavaScript.
 
