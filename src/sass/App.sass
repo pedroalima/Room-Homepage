@@ -32,7 +32,7 @@ body
             &-logo
                 display: flex
                 align-items: center
-                margin-right: 8rem
+                margin: 0 auto
 
             &-topics
                 display: flex
@@ -63,4 +63,23 @@ body
 
     .main
 
-        .discover
+        .section
+
+            &_container
+                position: relative
+
+                &_image
+                    width: 100%
+
+                &_angles
+                    position: absolute
+                    bottom: 4px
+                    right: 0
+
+                    &_buttons
+                        padding: 1rem 1.2rem
+                        background: black
+                        border: none
+
+                        .angles
+                            width: 70%

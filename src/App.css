@@ -31,7 +31,7 @@ body .header-nav-menu {
 body .header-nav-logo {
   display: flex;
   align-items: center;
-  margin-right: 8rem;
+  margin: 0 auto;
 }
 body .header-nav-topics {
   display: flex;
@@ -58,6 +58,25 @@ body .fade {
 }
 body .hide {
   display: none;
+}
+body .main .section_container {
+  position: relative;
+}
+body .main .section_container_image {
+  width: 100%;
+}
+body .main .section_container_angles {
+  position: absolute;
+  bottom: 4px;
+  right: 0;
+}
+body .main .section_container_angles_buttons {
+  padding: 1rem 1.2rem;
+  background: black;
+  border: none;
+}
+body .main .section_container_angles_buttons .angles {
+  width: 70%;
 }
 
 /*# sourceMappingURL=App.css.map */
