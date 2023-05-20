@@ -49,14 +49,13 @@ Os usuários devem ser capazes de:
 
 3º dia
 
-<!-- - [x] Desktop layout
+- [x] Primeira seção
 
 4º dia
 
-- [x] Desktop layout
-- [x] Estados de foco
+- [x] Segunda seção
 
-5º dia
+<!-- 5º dia
 
 - [x] Feature de resposta
 
