@@ -1,5 +1,9 @@
 import { useState } from "react";
 
+import logoImage from '../img/logo.svg';
+import menuHamburger from '../img/icon-hamburger.svg';
+import iconClose from '../img/icon-close.svg';
+
 function Header() {
 
     const [active, setMode] = useState(false);
@@ -9,11 +13,6 @@ function Header() {
         const fade = document.getElementById('fade');
         fade.classList.toggle('hide');
     }
-
-    const logoImage = './logo.svg';
-
-    const menuHamburger = './icon-hamburger.svg';
-    const iconClose = './icon-close.svg';
 
     const topics = ["Home", "Shop", "About", "Contact"];
     const topicsList = topics.map((topic, i) => <li key={"topic_" + i}><button>{topic}</button></li>);

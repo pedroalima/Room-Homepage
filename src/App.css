@@ -6,7 +6,6 @@
 }
 
 body {
-  font-family: "League Spartan";
   position: relative;
 }
 body .header {
@@ -41,7 +40,7 @@ body .header-nav-topics {
 body .header-nav-topics li button {
   background: none;
   border: none;
-  color: black;
+  color: #000000;
   text-transform: lowercase;
   font-weight: 700;
   font-size: 16px;
@@ -59,24 +58,74 @@ body .fade {
 body .hide {
   display: none;
 }
-body .main .section_container {
+body .main .section_imgContainer {
   position: relative;
 }
-body .main .section_container_image {
+body .main .section_imgContainer_image {
   width: 100%;
 }
-body .main .section_container_angles {
+body .main .section_imgContainer_angles {
   position: absolute;
   bottom: 4px;
   right: 0;
 }
-body .main .section_container_angles_buttons {
-  padding: 1rem 1.2rem;
-  background: black;
+body .main .section_imgContainer_angles_buttons {
+  background: #000000;
   border: none;
 }
-body .main .section_container_angles_buttons .angles {
-  width: 70%;
+body .main .section_imgContainer_angles_buttons .angles {
+  width: 58px;
+  padding: 1rem 1.5rem;
+}
+body .main .section_textContainer {
+  padding: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+body .main .section_textContainer h2 {
+  color: #000000;
+  font-size: 32px;
+}
+body .main .section_textContainer p {
+  color: hsl(0, 0%, 63%);
+  font-size: 15.2px;
+  line-height: 21px;
+  padding-bottom: 1.5rem;
+}
+body .main .section_textContainer button {
+  background: none;
+  border: none;
+  display: flex;
+  gap: 1.5rem;
+}
+body .main .section_textContainer button span {
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: 600;
+  font-size: 15px;
+}
+body .main .section_secondary_image {
+  width: 100%;
+}
+body .main .section_secondary_textContainer {
+  padding: 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+body .main .section_secondary_textContainer h2 {
+  color: #000000;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+body .main .section_secondary_textContainer p {
+  color: hsl(0, 0%, 63%);
+  font-size: 15.2px;
+  line-height: 21px;
 }
 
 /*# sourceMappingURL=App.css.map */

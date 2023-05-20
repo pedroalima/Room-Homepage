@@ -4,10 +4,9 @@
     padding: 0
     margin: 0
     box-sizing: border-box
-    font-family: variables.$font-primary
+    font-family: variables.$font-staks
 
 body
-    font-family: variables.$font-primary
     position: relative
 
     .header
@@ -43,7 +42,7 @@ body
                     button
                         background: none
                         border: none
-                        color: black
+                        color: variables.$primary-font-color
                         text-transform: lowercase
                         font-weight: 700
                         font-size: 16px
@@ -65,7 +64,7 @@ body
 
         .section
 
-            &_container
+            &_imgContainer
                 position: relative
 
                 &_image
@@ -77,9 +76,61 @@ body
                     right: 0
 
                     &_buttons
-                        padding: 1rem 1.2rem
-                        background: black
+                        background: variables.$buttons-bg
                         border: none
 
                         .angles
-                            width: 70%
+                            width: 58px
+                            padding: 1rem 1.5rem
+
+            &_textContainer
+                padding: 4rem 2rem
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                gap: 1rem
+
+                h2
+                    color: variables.$primary-font-color
+                    font-size: 32px
+
+                p
+                    color: variables.$secondary-font-color
+                    font-size: 15.2px
+                    line-height: 21px
+                    padding-bottom: 1.5rem
+
+                button
+                    background: none
+                    border: none
+                    display: flex
+                    gap: 1.5rem
+
+                    span
+                        text-transform: uppercase
+                        letter-spacing: 10px
+                        font-weight: 600
+                        font-size: 15px
+
+        .section_secondary
+
+            &_image
+                width: 100%
+
+            &_textContainer
+                padding: 3rem 2rem
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                gap: 1rem
+
+                h2
+                    color: variables.$primary-font-color
+                    font-size: 15px
+                    text-transform: uppercase
+                    letter-spacing: 5px
+
+                p
+                    color: variables.$secondary-font-color
+                    font-size: 15.2px
+                    line-height: 21px
