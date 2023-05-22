@@ -22,16 +22,17 @@ Os usuários devem ser capazes de:
 
 - Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
 - Visualizar os estados de foco para todos os elementos interativos na página
-<!-- - Navegar entre seções -->
+- Navegar entre seções através da seta
 
 ### Screenshots
 
 <html>
-  <!-- <h4>Layout mobile</h4>
-  <img src="./assets/image/mobile.png" width="300px">
-  <h4>Layout desktop </h4>
-  <img src="./assets/image/desktop.png" width="920px"> 
-  -->
+  <h4>Menu mobile</h4>
+  <img src="./src/img/menu.png" width="300px">
+  <h4>Layout mobile</h4>
+  <img src="./src/img/mobile1.png" width="300px">
+  <h4>Layout desktop</h4>
+  <img src="./src/img/desktop.png" width="920px">
 </html>
 
 ## Resultado: [Veja como ficou!](https://room-homepage-nine-delta.vercel.app/)
@@ -59,11 +60,11 @@ Os usuários devem ser capazes de:
 
 - [x] Feature de alternar entre seções
 
-<!--
 6º dia
 
-- [x] Feature de criar comentário
+- [x] Layout desktop
 
+<!--
 7º dia
 
 - [x] Feature de avaliação -->

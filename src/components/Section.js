@@ -81,7 +81,7 @@ function Section() {
                 <source media='(min-width:1360px)' srcSet={bgImageDesktop1}/>
                 <img 
                     className="section_imgContainer_image" 
-                    src={sections.discover.image}
+                    src={bgImageMobile1}
                     alt="Mobilia"
                 />
                 <div className="section_imgContainer_angles">
