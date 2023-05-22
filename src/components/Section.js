@@ -25,6 +25,46 @@ function Section() {
         }
     }
 
+    let index = 0
+
+    const sectionsArray = [
+        [sections.discover.image, sections.discover.title, sections.discover.content],
+        [sections.available.image, sections.available.title, sections.available.content],
+        [sections.manufacture.image, sections.manufacture.title, sections.manufacture.content]
+    ]
+
+    function toggleSectionsPlus(e) {
+        index++
+        if (index > sectionsArray.length - 1) {
+            index = 0;
+        }
+            
+        const image = e.target.parentNode.parentNode.parentNode.children[0];
+        image.setAttribute("src", sectionsArray[index][0]);
+
+        const title = e.target.parentNode.parentNode.parentNode.parentNode.children[1].children[0];
+        title.textContent = sectionsArray[index][1];
+
+        const content = e.target.parentNode.parentNode.parentNode.parentNode.children[1].children[1];
+        content.textContent = sectionsArray[index][2];
+    }
+
+    function toggleSectionsMinus(e) {
+        index--
+        if (index < 0) {
+            index = sectionsArray.length - 1;
+        }
+            
+        const image = e.target.parentNode.parentNode.parentNode.children[0];
+        image.setAttribute("src", sectionsArray[index][0]);
+
+        const title = e.target.parentNode.parentNode.parentNode.parentNode.children[1].children[0];
+        title.textContent = sectionsArray[index][1];
+
+        const content = e.target.parentNode.parentNode.parentNode.parentNode.children[1].children[1];
+        content.textContent = sectionsArray[index][2];
+    }
+
     return (
         <section className="section">
             <div className="section_imgContainer">
@@ -34,14 +74,14 @@ function Section() {
                     alt="Mobilia"
                     />
                 <div className="section_imgContainer_angles">
-                    <button className="section_imgContainer_angles_buttons">
+                    <button onClick={toggleSectionsMinus} className="section_imgContainer_angles_buttons">
                         <img 
                         className="angles" 
                         src={iconAngleLeft} 
                         alt=""
                         />
                     </button>
-                    <button className="section_imgContainer_angles_buttons">
+                    <button onClick={toggleSectionsPlus} className="section_imgContainer_angles_buttons">
                         <img 
                         className="angles" 
                         src={iconAngleRight} 
