@@ -128,4 +128,159 @@ body .main .section_secondary_textContainer p {
   line-height: 21px;
 }
 
+@media screen and (min-width: 1360px) {
+  body {
+    position: relative;
+  }
+  body .header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+  body .header-nav {
+    background: rgba(255, 255, 255, 0);
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+    justify-items: none;
+    padding: 3rem 3.5rem;
+  }
+  body .header-nav-menu {
+    display: none;
+  }
+  body .header-nav-logo {
+    display: flex;
+    align-items: center;
+    margin: 0;
+  }
+  body .header-nav-topics {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  body .header-nav-topics li button {
+    background: none;
+    border: none;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 0.5rem 0;
+  }
+  body .header-nav-topics li button:hover {
+    border-bottom: 3px solid #FFFFFF;
+    padding: 0.4rem 0;
+  }
+  body .header-nav-off {
+    background: rgb(255, 255, 255);
+  }
+  body .fade {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  body .hide {
+    display: none;
+  }
+  body .header-nav-topics {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  body .main .section {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  body .main .section_imgContainer {
+    position: relative;
+    width: 55%;
+    height: 420px;
+    margin: 0;
+  }
+  body .main .section_imgContainer_image {
+    width: 100%;
+    height: 100%;
+  }
+  body .main .section_imgContainer_angles {
+    position: absolute;
+    bottom: -1px;
+    right: -124px;
+  }
+  body .main .section_imgContainer_angles_buttons {
+    background: #000000;
+    border: none;
+  }
+  body .main .section_imgContainer_angles_buttons:hover {
+    opacity: 0.7;
+  }
+  body .main .section_imgContainer_angles_buttons .angles {
+    width: 62px;
+    padding: 1.3rem 1.5rem;
+  }
+  body .main .section_textContainer {
+    width: 45%;
+    padding: 5rem 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  body .main .section_textContainer h2 {
+    color: #000000;
+    font-size: 38px;
+  }
+  body .main .section_textContainer p {
+    color: hsl(0, 0%, 63%);
+    font-size: 15.2px;
+    line-height: 21px;
+    padding-bottom: 0.5rem;
+  }
+  body .main .section_textContainer button {
+    background: none;
+    border: none;
+    display: flex;
+    gap: 1.5rem;
+    cursor: pointer;
+  }
+  body .main .section_textContainer button:hover {
+    opacity: 0.3;
+  }
+  body .main .section_textContainer button span {
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 600;
+    font-size: 15px;
+  }
+  body .main .section_secondary {
+    display: flex;
+  }
+  body .main .section_secondary_image {
+    width: 26%;
+  }
+  body .main .section_secondary_textContainer {
+    padding: 3.5rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  body .main .section_secondary_textContainer h2 {
+    color: #000000;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  body .main .section_secondary_textContainer p {
+    color: hsl(0, 0%, 63%);
+    font-size: 15.2px;
+    line-height: 21px;
+  }
+}
+
 /*# sourceMappingURL=App.css.map */
