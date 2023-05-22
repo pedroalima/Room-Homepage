@@ -55,10 +55,11 @@ Os usuários devem ser capazes de:
 
 - [x] Segunda seção
 
-<!-- 5º dia
+5º dia
 
-- [x] Feature de resposta
+- [x] Feature de alternar entre seções
 
+<!--
 6º dia
 
 - [x] Feature de criar comentário
