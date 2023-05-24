@@ -1,83 +1,38 @@
-# ROOM HOMEPAGE
+![#](./src/img/Desing%20titulo.png)
 
-Projeto para criação de uma homepage, com o objetivo de me introduzir a biblioteca React de JavaScript.
+# Room
 
-## Índice
+Projeto construído a partir do challenge disponível do [FrontendMentor](https://www.frontendmentor.io/challenges/room-homepage-BtdBY_ENq). Utilizei o design fornecido pela plataforma e elaborei a página da forma mais fidedigna possível, desenvolvido com React, JavaScript, SASS, CSS e HTML. E esse foi o meu resultado final 💻<https://room-homepage-nine-delta.vercel.app/>.
 
-- [Visão geral](#visao-geral)
-  - [O Desafio](#o-desafio)
-  - [Screenshot](#screenshot)
-- [Resultado](#resultado)
-- [Minha caminhada](#minha-caminhada)
-  - [Propriedades](#propriedades)
-  - [O que aprendi](#o-que-aprendi)
-  - [Recursos](#recursos)
-- [Autor](#autor)
+![#](./src/img/Design%20room.png)
 
-## Visão Geral
+> Veja o comparativo da minha solução com o resultado esperado, [clicando aqui!](https://www.frontendmentor.io/solutions/room-1JK4ywQLj5)
 
-### O Desafio
+<br></br>
+
+## 🎯 Objetivos
+
+Elaborar um website que se aproxime o máximo possivel da imagem de referência.
 
 Os usuários devem ser capazes de:
 
-- Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
-- Visualizar os estados de foco para todos os elementos interativos na página
-- Navegar entre seções através da seta
+> - Visualizar o layout ideal para o aplicativo, dependendo do tamanho da tela do dispositivo
+> - Visualizar os estados de foco para todos os elementos interativos na página
+> - Navegar entre seções através das setas
 
-### Screenshots
+<br></br>
 
-<html>
-  <h4>Menu mobile</h4>
-  <img src="./src/img/menu.png" width="300px">
-  <h4>Layout mobile</h4>
-  <img src="./src/img/mobile1.png" width="300px">
-  <h4>Layout desktop</h4>
-  <img src="./src/img/desktop.png" width="920px">
-</html>
+## 🔧 Propriedades e Tecnologias
 
-## Resultado: [Veja como ficou!](https://room-homepage-nine-delta.vercel.app/)
+> - React
+> - SASS
+> - Mobile-first
+> - Semântica HTML
+> - Manipulação do DOM
 
-## Minha caminhada
+<br></br>
 
-1º dia
-
-- [x] Planejamento
-- [x] Preparativos
-
-2º dia
-
-- [x] Navbar
-
-3º dia
-
-- [x] Primeira seção
-
-4º dia
-
-- [x] Segunda seção
-
-5º dia
-
-- [x] Feature de alternar entre seções
-
-6º dia
-
-- [x] Layout desktop
-
-<!--
-7º dia
-
-- [x] Feature de avaliação -->
-
-### Propriedades
-
-- Mobile-first
-- Semântica HTML
-- SASS
-- Manipulação do DOM
-- React
-
-### Meu aprendizado
+## 🧠 Meu aprendizado
 
 ...<!-- No decorrer da primeira semana, além de reforçar os conceitos base de JavaScript, implementei módulos com a sintaxe ES6, objetos com abreviação do valor da propriedade e atribuição desestruturada, e como em qualquer conceito, é uma boa habilidade aprender a usar a documentação. -->
 
@@ -95,15 +50,16 @@ A segunda semana foi dedicada a explorar a biblioteca externa Handlebars, que au
 
 Outro aspecto abordado na segunda semana é a propriedade local storage, que permite o armazenamento de dados, mesmo após o usuário fechar ou recarregar a página. Utilizado para a permanência dos comentários inseridos pelo usuário. -->
 
-### Recursos
+<br><br>
 
-<!-- - [HANDLEBARS - Introdução](https://handlebarsjs.com/guide/#what-is-handlebars) - Conheça uma biblioteca externa muito útil para reduzir retrabalhos.
+## 💻 Rodando o projeto
 
-- [JAVASCRIPT - Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) - Aprenda os diversos métodos da propriedade. -->
+Para conferir a versão final é só acessar o link: 💻<https://room-homepage-nine-delta.vercel.app/>.
+Observação: os testes referente ao layout e responsividade foram realizadas somente utilizando o as resoluções 375px e 1360px.<br>
 
-- [SASS - Documentação](https://sass-lang.com/documentation/) - Nesse site você saberá tudo sobre o mundo SASS.
+https://drive.google.com/file/d/1Z4Ia1RDr8SLlTmz4l42azT0PXDw7jHSF/view?usp=sharing
 
-- [O desafio da Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-comments-section-iG1RugEG9) - Neste link você encontrará o desafio solucionado aqui.
+<br><br>
 
 ## Autor
 

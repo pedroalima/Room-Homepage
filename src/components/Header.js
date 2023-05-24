@@ -37,9 +37,7 @@ function Header() {
                     src={logoImage}
                     alt="Logo"/>
             </h1>
-            <ul 
-                id="topics"
-                className={active ? "header-nav-topics" : "header-nav-topics hide"}>{topicsList}</ul>
+            <ul id="topics" className={active ? "header-nav-topics" : "header-nav-topics hide"}>{topicsList}</ul>
         </nav>
     </header>
     );
